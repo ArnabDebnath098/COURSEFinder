@@ -10,24 +10,72 @@
   border-radius: 0;
   font-family: Montserrat, sans-serif;
 }
+.navbar-toggle:hover {
+  background-color:transparent !important;
+}
+.navbar-brand{
+  padding-left: 5rem;
+}
+.collapse , .navbar-collapse{
+   padding-right: 5rem;
+   padding-left: 5rem;
+}
+.navbar-right{
+  padding-right: 5rem;
+}
+.carousel{
+  background-color: wheat;
+  border-radius: 3rem;
+}
+.bg-grey {
+  background-image: url(landscape-4572804_1920.jpg) !important;
+  background-size: cover;
+}
+.bg-grey1{
+  background-image: url(landscape-5090102_1280.png);
+  background-size: cover;
+}
+.col-sm-5{
+  background-color: rgba(245, 222, 179, 0.733);
+  border-radius: 3rem;
+  padding: 3rem;
+}
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+  padding: 1.5rem;
+}
 .container {
   padding-right: 0 !important;
   padding-left: 0 !important;
   margin-right: 0 !important;
   margin-left:0 !important;
 }
+.btn-default {
+  color: black !important;
+  background-color: burlywood !important;
+  border-color: #f4511e !important;
+}
   body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
-    color: #818181;
+    color: black !important;
   }
   h2 {
     font-size: 24px;
     text-transform: uppercase;
-    color: #303030;
+    color: white;
     font-weight: 600;
     margin-bottom: 30px;
   }
+  h1 {
+    font-size: 24px;
+    
+    color:black;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
   h4 {
     font-size: 19px;
     line-height: 1.375em;
@@ -36,8 +84,8 @@
     margin-bottom: 30px;
   }  
   .jumbotron {
-    background-image: url(slide6.jpg);
-    color: #fff;
+    background-image: url(slide4.jpg);
+    color: crimson !important;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
   }
@@ -148,6 +196,9 @@
     -webkit-animation-duration: 1s;
     visibility: visible;
   }
+  .p{
+    color: crimson !important;
+  }
   @keyframes slide {
     0% {
       opacity: 0;
@@ -158,6 +209,7 @@
       transform: translateY(0%);
     }
   }
+ 
   @-webkit-keyframes slide {
     0% {
       opacity: 0;
@@ -201,15 +253,24 @@
 @media (min-width: 768px)
 {.col-sm-20 {
     width: 16.666666666% !important;
-    float: right;
-            }
 }
+.col-sm-20 {
+    float: right;
+}
+    .col-sm-7 {
+      width: 58.33333333%;
+      padding: 5rem;
+  }
+}
+
 .col-sm-20 {
   width: 16.666666666% !important;
   float: left;
   padding: .25rem;
 }
-
+.col-sm-7 {
+   padding: 5rem !important;
+}
 
 
 
